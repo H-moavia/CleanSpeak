@@ -1,5 +1,6 @@
 {
-    "name": "H-moavia/cleanspeak",
+    "name": "hassanmoavia/cleanspeak",
+    "version": "1.0.0",
     "description": "CleanSpeak is being developed to filter and remove abusive words from user responses",
     "authors": [
         {
