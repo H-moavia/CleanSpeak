@@ -1,0 +1,15 @@
+{
+    "name": "H-moavia/cleanspeak",
+    "description": "CleanSpeak is being developed to filter and remove abusive words from user responses",
+    "authors": [
+        {
+            "name": "Hassan Moavia",
+            "email": "hassanmoavia028@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Cleanspeak\\": "src/"
+        }
+    }
+}
