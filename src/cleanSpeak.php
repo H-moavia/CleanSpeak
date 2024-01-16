@@ -1,6 +1,6 @@
 <?php
 
-namespace CleanSpeak;
+namespace hassanmoavia\CleanSpeak;
 
 class CleanSpeakFilter
 {
@@ -21,7 +21,7 @@ class CleanSpeakFilter
     protected function loadAbusiveWords(): array
     {
         // Example: Load abusive words from a file
-        $fileContents = file_get_contents('/src/etc/abusive-words.txt');
+        $fileContents = file_get_contents(__DIR__ . '/etc/abusive-words.txt');
 
         // Split the words into an array
         return explode("\n", $fileContents);

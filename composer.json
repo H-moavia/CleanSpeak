@@ -1,5 +1,5 @@
 {
-    "name": "hassanmoavia/cleanspeak",
+    "name": "hassanmoavia/CleanSpeak",
     "version": "1.0.0",
     "description": "CleanSpeak is being developed to filter and remove abusive words from user responses",
     "authors": [
@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Cleanspeak\\": "src/"
+            "CleanSpeak\\": "src/"
         }
     }
 }
