@@ -2,7 +2,7 @@
 
 namespace CleanSpeak;
 
-class CleanSpeak
+class CleanSpeakFilter
 {
     protected $abusiveWords = ['bad', 'rude', 'offensive'];
 
